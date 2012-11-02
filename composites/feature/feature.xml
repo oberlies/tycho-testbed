@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="tycho-testbed-feature"
+      version="0.1.0.qualifier">
+
+   <description>
+   </description>
+
+   <copyright>
+   </copyright>
+
+   <license>
+   </license>
+
+</feature>

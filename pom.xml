@@ -9,6 +9,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
+		<module>bundles</module>
 		<module>composites/feature</module>
 		<module>composites/repository</module>
 	</modules>

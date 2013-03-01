@@ -18,6 +18,16 @@
 		<tycho-version>0.17.0-SNAPSHOT</tycho-version>
 	</properties>
 
+	<!-- 
+	<repositories>
+		<repository>
+			<id>eclipse-juno-sr1</id>
+			<url>http://nexus:8081/nexus/content/repositories/build.milestones.unzip/org/eclipse/download/releasetrain/juno/201209280900/juno-201209280900.zip-unzip/</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
+	-->
+
 	<build>
 		<plugins>
 			<plugin>

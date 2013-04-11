@@ -13,20 +13,30 @@
 		<module>composites/feature</module>
 		<module>composites/repository</module>
 	</modules>
-	
+
 	<properties>
-		<tycho-version>0.17.0-SNAPSHOT</tycho-version>
+		<tycho-version>0.18.0-SNAPSHOT</tycho-version>
 	</properties>
 
-	<!-- 
 	<repositories>
+		<!-- 
 		<repository>
-			<id>eclipse-juno-sr1</id>
-			<url>http://nexus:8081/nexus/content/repositories/build.milestones.unzip/org/eclipse/download/releasetrain/juno/201209280900/juno-201209280900.zip-unzip/</url>
+			<id>eclipse-juno-sr2</id>
+			<url>http://nexus:8081/nexus/content/repositories/build.milestones.unzip/org/eclipse/download/releasetrain/juno/201303010900/juno-201303010900.zip-unzip/</url>
 			<layout>p2</layout>
 		</repository>
+		-->
 	</repositories>
-	-->
+
+	<dependencies>
+		<!--
+		<dependency>
+			<groupId>org.eclipse.tycho</groupId>
+			<artifactId>org.eclipse.osgi</artifactId>
+			<version>3.9.0.v20130305-2200</version>
+		</dependency>
+		-->
+	</dependencies>
 
 	<build>
 		<plugins>

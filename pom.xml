@@ -70,6 +70,16 @@
 						</environment>
 						-->
 					</environments>
+					<target>
+						<!--
+						<artifact>
+							<groupId>${project.groupId}</groupId>
+							<artifactId>tycho-testbed</artifactId>
+							<version>${project.version}</version>
+							<classifier></classifier>
+						</artifact>
+						-->
+					</target>
 				</configuration>
 			</plugin>
 		</plugins>

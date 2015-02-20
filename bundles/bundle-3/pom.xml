@@ -6,7 +6,6 @@
 		<groupId>tycho-testbed</groupId>
 		<artifactId>tycho-testbed-bundles</artifactId>
 		<version>0.1.0-SNAPSHOT</version>
-		<relativePath>..</relativePath>
 	</parent>
 
 	<artifactId>tycho-testbed-bundle-3</artifactId>

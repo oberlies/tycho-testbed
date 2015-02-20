@@ -12,6 +12,9 @@
 		<module>bundles</module>
 		<module>composites/feature</module>
 		<module>composites/repository</module>
+		<!--
+		<module>releng</module>
+		-->
 	</modules>
 
 	<properties>
@@ -19,7 +22,7 @@
 	</properties>
 
 	<repositories>
-		<!-- 
+		<!--
 		<repository>
 			<id>eclipse-juno-sr2</id>
 			<url>http://nexus:8081/nexus/content/repositories/build.milestones.unzip/org/eclipse/download/releasetrain/juno/201303010900/juno-201303010900.zip-unzip/</url>
@@ -74,9 +77,8 @@
 						<!--
 						<artifact>
 							<groupId>${project.groupId}</groupId>
-							<artifactId>tycho-testbed</artifactId>
+							<artifactId>tycho-testbed-releng</artifactId>
 							<version>${project.version}</version>
-							<classifier></classifier>
 						</artifact>
 						-->
 					</target>

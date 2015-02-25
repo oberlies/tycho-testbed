@@ -11,4 +11,21 @@
 	<artifactId>tycho-testbed-bundle-1</artifactId>
 	<packaging>eclipse-plugin</packaging>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-compiler-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<showWarnings>true</showWarnings>
+					<useProjectSettings>true</useProjectSettings>
+					<compilerArgs>
+						<arg>-log</arg>
+						<arg>${project.build.directory}/@dot.xml</arg>
+					</compilerArgs>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

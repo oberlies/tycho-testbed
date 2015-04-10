@@ -14,8 +14,10 @@
 
 	<modules>
 		<module>bundle-1</module>
+		<!--
 		<module>bundle-2</module>
 		<module>bundle-3</module>
+		-->
 	</modules>
 
 </project>

@@ -24,11 +24,16 @@
 	<repositories>
 		<!--
 		<repository>
-			<id>eclipse-juno-sr2</id>
-			<url>http://nexus:8081/nexus/content/repositories/build.milestones.unzip/org/eclipse/download/releasetrain/juno/201303010900/juno-201303010900.zip-unzip/</url>
+			<id>eclipse-luna-sr2</id>
+			<url>http://nexus:8081/nexus/content/repositories/build.milestones.unzip/org/eclipse/download/releasetrain/luna/201502271000/luna-201502271000.zip-unzip/</url>
 			<layout>p2</layout>
 		</repository>
 		-->
+		<repository>
+			<id>eclipse-luna-sr2</id>
+			<url>http://download.eclipse.org/eclipse/updates/4.4/R-4.4.2-201502041700</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 
 	<dependencies>
@@ -55,23 +60,16 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<environments>
-						<!--
-						<environment>
-							<os>linux</os>
-							<ws>gtk</ws>
-							<arch>x86_64</arch>
-						</environment>
 						<environment>
 							<os>win32</os>
 							<ws>win32</ws>
-							<arch>x86</arch>
+							<arch>x86_64</arch>
 						</environment>
 						<environment>
 							<os>macosx</os>
 							<ws>cocoa</ws>
 							<arch>x86_64</arch>
 						</environment>
-						-->
 					</environments>
 					<target>
 						<!--

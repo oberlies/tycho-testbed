@@ -4,3 +4,5 @@ Bundle-Name: Bundle-1
 Bundle-SymbolicName: tycho-testbed-bundle-1
 Bundle-Version: 0.1.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: lib/jtds.jar,
+ .
